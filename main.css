@@ -17,13 +17,14 @@ h3 {
 }
 
 form {
+  background: gold;
   font-size: 12px;
-  background-color: pink;
   text-align: center;
   color: white;
   width: 500px;
   margin: 0 auto;
   padding: 50px;
+  box-shadow: 60px -16px teal;
 }
 input {
   font-size: 20px;
@@ -31,7 +32,13 @@ input {
   text-align: center;
   height: 100px;
   width: 175px;
+  border-color: grey;
 }
-input.field3output {
-  font-size: 16pt;
+#Answer {
+  margin: 10pt;
+  padding: 25pt;
+  font-size: 30pt;
+  border-style: dashed;
+  border-color: red;
+  border-radius: 150px;
 }
